@@ -1,14 +1,13 @@
-"use client"
+"use client";
 // RxHamburgerMenu
-import React from 'react'
-import { GiHamburgerMenu} from "react-icons/gi";
+import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 function Hamburger() {
   return (
     <div>
-<GiHamburgerMenu />
-   
-        </div>
-  )
+      <GiHamburgerMenu size={30} className="fill-white " />
+    </div>
+  );
 }
 
-export default Hamburger
+export default Hamburger;

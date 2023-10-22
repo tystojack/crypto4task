@@ -2,7 +2,7 @@
 import React from 'react';
 function SearchComponent() {
   return (
-    <div className=' flex justify-center'>
+    <div className=' flex justify-center p-4'>
 
     <div className='flex items-center'>
       <input
@@ -12,7 +12,7 @@ function SearchComponent() {
         />
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='h-6 w-6 text-gray-500 cursor-pointer'
+        className='h-6 w-6 text-gray-100 cursor-pointer'
         fill='none'
         viewBox='0 0 24 24'
         stroke='currentColor'
