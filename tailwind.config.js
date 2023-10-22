@@ -14,19 +14,25 @@ module.exports = {
 
 
       keyframes: {
-        fadeIn: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1", visibility: "visible" },
+        slideIn: {
+          "0%": {  transform: "translateX(100%)" },
+          "100%": {transform:  "translateX(0%)" },
+          // "0%": { opacity: "0" },
+          // "100%": { opacity: "1", visibility: "visible" },
         },
-        fadeOut: {
-          "0%": { opacity: "1" },
-          "100%": { opacity: "0", visibility: "invisible" },
+        slideOut: {
+          // "0%": { opacity: "1" },
+          // "100%": { opacity: "0", visibility: "invisible" },
+          "0%": {  transform: "translateX(0%)" },
+          "100%": {transform:  "translateX(100%)" },
         },
       },
     },
     animation: {
-      fadeIn: "fadeIn 400ms ease-in-out forwards",
-      fadeOut: "fadeOut 400ms ease-in-out forwards",
+      slideIn: "slideIn 400ms ease-in-out forwards",
+      slideOut: "slideOut 400ms ease-in-out forwards",
+      // fadeIn: "fadeIn 400ms ease-in-out forwards",
+      // fadeOut: "fadeOut 400ms ease-in-out forwards",
     },
   },
   plugins: [],

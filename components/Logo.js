@@ -7,7 +7,7 @@ function Logo() {
     const router = useRouter();
   return (
     <div>
-    <Image className='rounded-full' width='60' height="50" src="/images/logo.png"/>
+    <Image className='rounded-full' width='70' height="60" src="/images/logo.png"/>
     </div>
   )
 }

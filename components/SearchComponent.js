@@ -8,7 +8,7 @@ function SearchComponent() {
       <input
         type='text'
         placeholder='Search...'
-        className='bg-white rounded p-2 mr-2 focus:outline-none'
+        className='bg-stone-900 rounded p-2 mr-2 focus:outline-none'
         />
       <svg
         xmlns='http://www.w3.org/2000/svg'
